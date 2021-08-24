@@ -18,6 +18,7 @@ Adicione 3 ou mais screenshots do projeto em funcionamento.
 ## Instalação 
 **Linguagem**: Python<br>
 **Framework**: Pygame<br>
+
 instalar o interpretador do python: <br>
 ```sudo apt install python3```
 
@@ -26,6 +27,9 @@ instalar a bibliotéca Pyhame: <br>
 
 
 ## Uso 
+
+rode o seguinte comando:
+```python3 labirinto.py```
 
 
 
