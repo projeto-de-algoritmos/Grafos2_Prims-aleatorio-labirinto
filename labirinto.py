@@ -1,5 +1,5 @@
 import pygame
-# import time
+import time
 import random
 
 WIDTH = 450
@@ -67,6 +67,7 @@ def prims(x, y):
             esquerda = (item[0]-1, item[1]) in labirinto
             direita = (item[0], item[1]) in labirinto
             if esquerda and not direita or not esquerda and direita:
+                time.sleep(0.01)
 
                 pygame.draw.line(
                     screen, BLACK, [item[0]*w, item[1]*w + w], [item[0]*w, item[1]*w])
@@ -97,9 +98,11 @@ def prims(x, y):
             baixo = (item[0], item[1]) in labirinto
 
             if cima and not baixo or not cima and baixo:
+                time.sleep(0.01)
+
                 pygame.draw.line(screen, BLACK, [item[0]*w, item[1]*w], [
                     item[0]*w + w, item[1]*w])
-                # print('cimabaixo')
+
                 pygame.display.flip()
 
                 if cima:
