@@ -13,7 +13,9 @@
 Este projeto tem como objetivo gerar labirintos de forma totalmente aleatória. Todos os labirintos gerados são únicos e possuem apenas uma solução. 
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+<img width="30%" src="https://i.imgur.com/enuySgt.png" alt="Image1"/>
+<img width="30%" src="https://i.imgur.com/t1dL5Jc.png" alt="Image2"/>
+<img width="30%" src="https://i.imgur.com/kxgbpVx.png" alt="Image3"/>
 
 ## Instalação 
 **Linguagem**: Python<br>
